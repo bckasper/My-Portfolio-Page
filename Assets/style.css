@@ -10,6 +10,45 @@
     padding: 0;
 }
 
-h1{
-    font-size: larger;
+body{
+    margin-left: 3px;
+    margin-right: 3px;
 }
+
+header{
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+h1{
+    font-size: 200%;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 2px;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    padding: 1px 1rem 1px 1rem;
+}
+
+main{
+    min-height: 1000px;
+    background-color: lightblue;
+    margin: 10px;
+}
+
+.about-me{
+    margin: 4px 2px 2px 2px;
+    padding: 10px;
+    margin: 5px;
+}
+
