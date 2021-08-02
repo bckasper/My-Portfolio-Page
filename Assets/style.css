@@ -65,7 +65,8 @@ main{
 }
 
 .featured-app h1{
-
+    text-align: center;
+    align-items: flex-end;
 }
 
 .portfolio{
