@@ -44,11 +44,26 @@ main{
     min-height: 1000px;
     background-color: lightblue;
     margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .about-me{
     margin: 4px 2px 2px 2px;
     padding: 10px;
     margin: 5px;
+}
+
+.featured-app{
+    background-image: url('https://images.lifealth.com/uploads/2018/03/commitments-to-make-if-you-want-to-be-happy.jpg');
+    min-height: 96%;
+    min-width: 50%;
+    flex: 0 1 auto;
+    justify-content: flex-start;
+    margin: 5px;
+}
+
+.portfolio{
+    
 }
 
