@@ -3,3 +3,9 @@
    --darkblue: rgb(125,168,200);
    --seagreen: rgb(41,110,94);
 }
+
+*{
+    background-color: var(--background);
+    margin: 0;
+    padding: 0;
+}
