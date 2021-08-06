@@ -52,19 +52,10 @@ nav ul *{
     width: 100%;
 }
 
-main{
-    /* height: 1000px; */
-    background-color: lightblue;
-    margin: 0px 0px 10px 0px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-
 .about-me{
     position: relative;
     padding: 0px;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 10px 0px;
     height: 400px;
     display: flex;
     justify-content: flex-start;
@@ -95,32 +86,49 @@ main{
     padding-top: 30px;
 }
 
+main{
+    background-color: lightblue;
+    margin: 0px 0px 10px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
 .featured-app{
-    /* background-image:url(./placeholder-image.png);
-    background-size: contain; */
-    min-height: 100%;
+    background-image:url(./placeholder-image.png);
+    background-size: contain;
     width: 40%;
-    margin-right: 5px;
-    float: left;
+    margin: 5px 0px 0px 0px;
     border: 2px solid black;
-    height: 800px;
+    height: 50rem;
 }
 
 .featured-app h1{
     text-align: center;
+    align-items: center;
 }
 
 .portfolio{
     display: flex;
-    flex-flow: column ;
-    height: 100%;
-    border: 2px solid black;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-self: center;
+    height: 50rem;
     width: 100%;
 }
 
 .portfolio-app{
     flex: 0 1 auto;
-    margin: 5px;
+    margin: 5px 0px;
+    border: 1px solid black;
+    width: 98%;
+    height: 100%;
+    text-align: center;
+    align-self: center;
+}
+
+.portfolio-app p{
+    height: 100%;
+    border: 1px solid red;
 }
 
 footer{
