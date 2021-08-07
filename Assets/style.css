@@ -43,7 +43,7 @@ nav{
     border-top: 1px solid white;
     margin: 2px;
     margin-bottom: 15px;
-    width: 30%;
+    width: 80%;
     margin: 2px auto 0px auto;
     padding: 15px;
     text-align: center;
@@ -196,14 +196,14 @@ main{
 
 #Kleen{
     background-image: url(./Kleen.jpeg);
-    background-position: -30% 65%;
+    background-position: 0% 65%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #Jumpstart{
     background-image: url(./Focus.jpeg);
-    background-position: -30% 65%;
+    background-position: 0% 65%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -263,17 +263,25 @@ footer ul li{
     }
 
     footer{
-        font-size: 80%;
         display: flex;
         flex-flow: column wrap;
         align-content: center;
-        justify-content: center;
+        justify-content: space-around;
     }
 
   }
 
+
+
+
 /* iPads and Tablets */
   @media screen and (max-width: 480px) {
+    .about-me::before{
+        background-position-x: right;
+    }
+    
+
+    
     main {
       flex-direction: column;
     }
@@ -288,17 +296,10 @@ footer ul li{
     }
 
     footer{
-        font-size: 80%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
-
-    footer ul{
         display: flex;
         flex-flow: column wrap;
+        align-content: center;
+        justify-content: space-around;
     }
 
 
@@ -320,7 +321,15 @@ footer ul li{
     }
 
     footer{
-        font-size: 10%;
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        justify-content: space-around;
+    }
+
+    footer ul{
+        display: flex;
+        flex-flow: column wrap;
     }
 
   }
