@@ -1,7 +1,8 @@
+/* Universal elements */
 :root{
    --background: rgb(97, 104, 107);
    --darkblue: rgb(125,168,200);
-   --seagreen: rgb(41,110,94);
+   --seagreen: rgb(9, 32, 27);
    --lightbground: rgba(231, 241, 233, 0.87);
 }
 
@@ -14,8 +15,10 @@ body{
     font-size: 16px;
 }
 
+
+
+/* Sticky header and nav bar */
 .top-bar{
-    /* background-color: var(--background); */
     position: fixed;
     width: 99%;
     top: 3px;
@@ -53,6 +56,9 @@ nav ul *{
     width: 100%;
 }
 
+
+
+/* About Me section */
 .about-me{
     position: relative;
     padding: 0px;
@@ -86,29 +92,35 @@ nav ul *{
     padding-top: 30px;
 }
 
+
+
+/* Main content flexbox */
 main{
     padding: 10px 0px 10px 0px;
     display: flex;
     flex-direction: row;
-    background-color: var(--lightbground);
+    background-color: var(--background);
 }
 
+
+
+/* Featured application */
 .featured-app{
     background-image:url(./zen.jpeg);
     background-size: cover;
     background-position: -90% 0;
     width: 40%;
     margin: 5px 0px 0px 0px;
-    border: 2px solid black;
     height: 50rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .featured-app:hover{
     opacity: 0.6;
-    border: 10px solid var(--seagreen);
+    border: 10px solid white;
     transition: all 0.25s ease-in-out;
     cursor:pointer;
 }
@@ -120,6 +132,16 @@ main{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.featured-app p{
+    color: white;
+    background-color: var(--darkblue);
+    border-radius: 10px 0px 10px 0px;
+    padding: 3px 10px;
+    font-size: 130%;
+}
+
+
+/* Portfolio of other three applications */
 .portfolio{
     display: flex;
     flex-flow: column;
@@ -133,38 +155,61 @@ main{
 .portfolio-app{
     flex: 0 1 auto;
     margin: 5px 0px;
-    border: 1px solid black;
     width: 98%;
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .portfolio-app:hover{
     opacity: 0.6;
-    border: 5px solid var(--seagreen);
+    border: 5px solid white;
     transition: all 0.25s ease-in-out;
     cursor:pointer;
 }
 
-.portfolio-app p{
-        font-size: 200%;
+.portfolio-app h2{
+        font-size: 300%;
+        color: white;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.portfolio-app p{
+    color: white;
+    background-color: var(--darkblue);
+    border-radius: 10px 0px 10px 0px;
+    padding: 3px 10px;
+    margin-top: 1rem;
+    font-size: 130%;
+}
+
 #Bitelust{
-    background-image: url(./placeholder-image.png);
+    background-image: url(./bitelust.jpeg);
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #Kleen{
-    background-image: url(./placeholder-image.png);
+    background-image: url(./Kleen.jpeg);
+    background-position: -30% 65%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #Jumpstart{
-    background-image: url(./placeholder-image.png);
+    background-image: url(./Focus.jpeg);
+    background-position: -30% 65%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+
+
+/* Footer */
 footer{
     display: flex;
     align-items: center;
@@ -172,7 +217,6 @@ footer{
     background-color: var(--seagreen);
     width: 100%;
     height: 100px;
-    border-radius: 10px;
 }
 
 footer *{
@@ -196,4 +240,7 @@ footer ul {
 footer ul li{
     font-size: 125%;
 }
+
+
+
 
