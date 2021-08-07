@@ -10,7 +10,7 @@ This portfolio page was first created on August 6th, 2021 and acts as a shell fo
 If you would like to know the status of current applications, pleaes feel free to contact me (contact resources are at the bottom of this README as well as the bottom of the portfolio site).
 
 ## Helpful links
-My Portfolio: https://bckasper.github.io/My-Portfolio-Page/
+My Portfolio: https://bckasper.github.io/My-Portfolio-Page/ 
 
 My Github Repo: https://github.com/bckasper/My-Portfolio-Page
 
