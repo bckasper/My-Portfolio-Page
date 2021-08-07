@@ -70,7 +70,7 @@ nav ul *{
 
 .about-me::before{
     content: "";
-    background-image: url(./Photos/4E7A7C25-6046-4C9A-86CE-F6DC515758E4.jpeg);
+    background-image: url(../Assets/Photos/4E7A7C25-6046-4C9A-86CE-F6DC515758E4.jpeg);
     background-size: cover;
     background-position: 0% 33%;
     position: absolute;
@@ -106,7 +106,7 @@ main{
 
 /* Featured application */
 .featured-app{
-    background-image:url(./Photos/zen.jpeg);
+    background-image:url(../Assets/Photos/zen.jpeg);
     background-size: cover;
     background-position: 60% 0;
     background-repeat: no-repeat;
@@ -188,21 +188,21 @@ main{
 }
 
 #Bitelust{
-    background-image: url(./Photos/bitelust.jpeg);
+    background-image: url(../Assets/Photos/bitelust.jpeg);
     background-position: 50% 10%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #Kleen{
-    background-image: url(./Photos/Kleen.jpeg);
+    background-image: url(../Assets/Photos/Kleen.jpeg);
     background-position: 0% 65%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #Jumpstart{
-    background-image: url(./Photos/Focus.jpeg);
+    background-image: url(../Assets/Photos/Focus.jpeg);
     background-position: 0% 65%;
     background-repeat: no-repeat;
     background-size: cover;
