@@ -83,8 +83,8 @@ nav ul *{
 
 .about-me p {
     position: relative;
-    color: black;
-    font-size: 100%;
+    color: rgb(59, 59, 59);
+    font-size: 110%;
     line-height: 1.5;
     text-align: left;
     width: 60%;
