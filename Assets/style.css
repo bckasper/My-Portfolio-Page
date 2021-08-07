@@ -2,6 +2,7 @@
    --background: rgb(97, 104, 107);
    --darkblue: rgb(125,168,200);
    --seagreen: rgb(41,110,94);
+   --lightbground: rgba(231, 241, 233, 0.87);
 }
 
 *{
@@ -55,7 +56,6 @@ nav ul *{
 .about-me{
     position: relative;
     padding: 0px;
-    margin: 0px 0px 10px 0px;
     height: 400px;
     display: flex;
     justify-content: flex-start;
@@ -87,24 +87,37 @@ nav ul *{
 }
 
 main{
-    background-color: lightblue;
-    margin: 0px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
     display: flex;
     flex-direction: row;
+    background-color: var(--lightbground);
 }
 
 .featured-app{
-    background-image:url(./placeholder-image.png);
-    background-size: contain;
+    background-image:url(./zen.jpeg);
+    background-size: cover;
+    background-position: -90% 0;
     width: 40%;
     margin: 5px 0px 0px 0px;
     border: 2px solid black;
     height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-app:hover{
+    opacity: 0.6;
+    border: 10px solid var(--seagreen);
+    transition: all 0.25s ease-in-out;
+    cursor:pointer;
 }
 
 .featured-app h1{
+    font-size: 500%;
     text-align: center;
-    align-items: center;
+    padding: 2px 5px 2px 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .portfolio{
@@ -112,6 +125,7 @@ main{
     flex-flow: column;
     justify-content: space-evenly;
     align-self: center;
+    align-items: center;
     height: 50rem;
     width: 100%;
 }
@@ -122,13 +136,33 @@ main{
     border: 1px solid black;
     width: 98%;
     height: 100%;
-    text-align: center;
-    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-app:hover{
+    opacity: 0.6;
+    border: 5px solid var(--seagreen);
+    transition: all 0.25s ease-in-out;
+    cursor:pointer;
 }
 
 .portfolio-app p{
-    height: 100%;
-    border: 1px solid red;
+        font-size: 200%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Bitelust{
+    background-image: url(./placeholder-image.png);
+}
+
+#Kleen{
+    background-image: url(./placeholder-image.png);
+}
+
+#Jumpstart{
+    background-image: url(./placeholder-image.png);
 }
 
 footer{
