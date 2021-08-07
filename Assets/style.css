@@ -84,7 +84,7 @@ nav ul *{
 .about-me p {
     position: relative;
     color: black;
-    font-size: 1.2rem;
+    font-size: 100%;
     line-height: 1.5;
     text-align: left;
     width: 60%;
@@ -108,7 +108,8 @@ main{
 .featured-app{
     background-image:url(./zen.jpeg);
     background-size: cover;
-    background-position: -90% 0;
+    background-position: 60% 0;
+    background-repeat: no-repeat;
     width: 40%;
     margin: 5px 0px 0px 0px;
     height: 50rem;
@@ -244,3 +245,82 @@ footer ul li{
 
 
 
+/* Media queries */
+
+/* Laptop screens */
+@media screen and (max-width: 768px) {
+    main {
+      flex-direction: column;
+    }
+
+    .featured-app {
+        width: 100%;
+    }
+
+    body{
+        font-size: 75%;
+        width: 100%;
+    }
+
+    footer{
+        font-size: 80%;
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        justify-content: center;
+    }
+
+  }
+
+/* iPads and Tablets */
+  @media screen and (max-width: 480px) {
+    main {
+      flex-direction: column;
+    }
+
+    .featured-app {
+        width: 100%;
+    }
+
+    body{
+        font-size: 50%;
+        width: 100%;
+    }
+
+    footer{
+        font-size: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer ul{
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+
+  }
+
+  /* Smartphones */
+  @media screen and (max-width: 320px) {
+    main {
+      flex-direction: column;
+    }
+
+    .featured-app {
+        width: 100%;
+    }
+
+    body{
+        font-size: 50%;
+        width: 100%;
+    }
+
+    footer{
+        font-size: 10%;
+    }
+
+  }
