@@ -102,16 +102,31 @@ main{
     background-color: var(--background);
 }
 
-.btn-section{
+.feature-btn-section{
     width: 50%;
     margin: 3rem auto 3rem auto;
 }
-button{ 
+
+.portfolio-btn-section{
+    width: fit-content;
+    margin: 1rem auto 1rem auto;
+}
+
+.feature-btn{ 
     color: white;
     width: 100%;
     font-size: 150%;
     padding: 0.5rem 0 0.5rem 0;
     border-radius: 1rem;
+    margin: 0.5rem auto 0.5rem auto;
+}
+
+.portfolio-btn{ 
+    color: white;
+    width: 100%;
+    font-size: 85%;
+    padding: 0.5rem 0 0.5rem 0;
+    border-radius: 0.5rem;
     margin: 0.5rem auto 0.5rem auto;
 }
 
@@ -130,9 +145,9 @@ button:hover{
 
 /* Featured application */
 .featured-app{
-    background-image:url(../Assets/Photos/rain.jpg);
+    background-image:url(../Assets/Photos/weather.png);
     background-size: cover;
-    background-position-x: left;
+    background-position-x: center;
     background-position-y: bottom;
     background-repeat: no-repeat;
     width: 40%;
@@ -142,12 +157,14 @@ button:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 1rem;
 }
 
 .featured-app:hover{
     opacity: 0.6;
     border: 10px solid white;
     transition: all 0.25s ease-in-out;
+    border-radius: 1rem;
 }
 
 .featured-app h1{
@@ -190,12 +207,14 @@ button:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 1rem;
 }
 
 .portfolio-app:hover{
     opacity: 0.6;
     border: 5px solid white;
     transition: all 0.25s ease-in-out;
+    border-radius: 1rem;
 }
 
 .portfolio-app h2{
@@ -214,8 +233,8 @@ button:hover{
 }
 
 #Bitelust{
-    background-image: url(../Assets/Photos/planner.jpg);
-    background-position: 10% 5%;
+    background-image: url(../Assets/Photos/plannr.png);
+    background-position: 10% 50%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -228,8 +247,8 @@ button:hover{
 }
 
 #Jumpstart{
-    background-image: url(../Assets/Photos/robot.jpg);
-    background-position: 20% 65%;
+    background-image: url(../Assets/Photos/rock-paper-scissors.png);
+    background-position: 100% 80%;
     background-repeat: no-repeat;
     background-size: cover;
 }
