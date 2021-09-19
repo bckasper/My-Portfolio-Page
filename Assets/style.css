@@ -192,8 +192,8 @@ main{
 }
 
 #Bitelust{
-    background-image: url(../Assets/Photos/bitelust.jpeg);
-    background-position: 50% 10%;
+    background-image: url(../Assets/Photos/planner.jpg);
+    background-position: 10% 5%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -206,8 +206,8 @@ main{
 }
 
 #Jumpstart{
-    background-image: url(../Assets/Photos/Focus.jpeg);
-    background-position: 0% 65%;
+    background-image: url(../Assets/Photos/robot.jpg);
+    background-position: 20% 65%;
     background-repeat: no-repeat;
     background-size: cover;
 }
