@@ -106,9 +106,10 @@ main{
 
 /* Featured application */
 .featured-app{
-    background-image:url(../Assets/Photos/zen.jpeg);
+    background-image:url(../Assets/Photos/rain.jpg);
     background-size: cover;
-    background-position: 60% 0;
+    background-position-x: left;
+    background-position-y: bottom;
     background-repeat: no-repeat;
     width: 40%;
     margin: 5px 0px 0px 0px;
@@ -139,6 +140,9 @@ main{
     border-radius: 10px 0px 10px 0px;
     padding: 3px 10px;
     font-size: 130%;
+    width: 80%;
+    text-align: center;
+    margin-top: 1rem;
 }
 
 
