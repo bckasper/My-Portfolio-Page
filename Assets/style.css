@@ -223,6 +223,12 @@ button:hover{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+#travel h2{
+    font-size: 300%;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .portfolio-app p{
     color: white;
     background-color: var(--darkblue);
@@ -232,8 +238,8 @@ button:hover{
     font-size: 130%;
 }
 
-#Bitelust{
-    background-image: url(../Assets/Photos/plannr.png);
+#travel{
+    background-image: url(../Assets/Photos/write-page-ss.png);
     background-position: 10% 50%;
     background-repeat: no-repeat;
     background-size: cover;
